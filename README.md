@@ -2,12 +2,16 @@
 Resolução dos exercícios apresentados em cada capítulo em C/C++.
 
 Conceito de algoritmo
+
 A seguir, apresentamos alguns conceitos de algoritmos:
+
 “Algoritmo é uma sequência de passos que visa atingir um objetivo bem definido” (FORBELLONE, 1999).
 “Algoritmo é a descrição de uma sequência de passos que deve ser seguida para a realização de uma
 tarefa” (ASCENCIO, 1999).
+
 “Algoritmo é uma sequência finita de instruções ou operações cuja execução, em tempo finito, resolve
 um problema computacional, qualquer que seja sua instância” (SALVETTI, 1999).
+
 “Algoritmos são regras formais para a obtenção de um resultado ou da solução de um problema, englobando
 fórmulas de expressões aritméticas” (MANZANO, 1997).
 
