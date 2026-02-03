@@ -24,4 +24,5 @@ int main(){
     printf("\n\nA soma dos quadrados dos valores e': %d\n\n", soma);
 
     return 0;
+
 }
