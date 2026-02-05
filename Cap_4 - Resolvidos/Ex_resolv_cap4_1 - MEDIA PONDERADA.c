@@ -8,6 +8,15 @@
     TRABALHO LABORATÓRIO - 2
     AVALIAÇÃO SEMESTRAL - 3
     EXAME FINAL - 5
+
+    Faça um programa que recebe as 3 notas, calcule e mostre a média ponderada e o conceito que segue a tabela abaixo:
+
+    MEDIA PONDERADA    CONCEITO
+    8.0 A 10.0          A
+    7.0 A 7.9           B
+    6.0 A 6.9           C
+    5.0 A 5.9           D
+    0.0 A 4.9           E
     
     */
 
@@ -24,8 +33,17 @@
 
         media = (trab * 2 + aval * 3 + exame * 5) / 10;
 
-        printf("\n\tA media final do estudante eh: %.2f\n", media);
-
+        if (media >= 8.0 && media <= 10.0) {
+            printf("\n\tConceito A\n");
+        } else if (media >= 7.0 && media <= 7.9) {
+            printf("\n\tConceito B\n");
+        } else if (media >= 6.0 && media <= 6.9) {
+            printf("\n\tConceito C\n");
+        } else if (media >= 5.0 && media <= 5.9) {
+            printf("\n\tConceito D\n");
+        } else if (media >= 0.0 && media <= 4.9) {
+            printf("\n\tConceito E\n");
+        }
         return 0;
     }
 
