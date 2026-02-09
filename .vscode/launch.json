@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar C",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/ex_rev - 2026/output/Ex_resolv_cap3_1.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "externalConsole": true,
+      "MIMode": "gdb"
+    }
+  ]
+}
