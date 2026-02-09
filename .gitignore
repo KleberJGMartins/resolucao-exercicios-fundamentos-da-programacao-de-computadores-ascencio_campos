@@ -2,3 +2,5 @@
 *.zip
 *.mp4
 *.exe
+*.pdf
+output/
